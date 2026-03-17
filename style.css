@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Monoton&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@200;300;400;700;800;900;&family=Monoton&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /*common style*/
 *{
@@ -34,6 +34,14 @@ html{
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.5rem; 
+}
+
+.section-1-icons i{
+   font-size: 25rem;
+   color: #a79a2d;
+   position: absolute;
+   transform: translate(-50%,-50%)scale(0);
+   text-shadow: 0.2rem 0.2rem 0.2rem #000;
 }
 
 
