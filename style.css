@@ -44,6 +44,11 @@ html{
    text-shadow: 0.2rem 0.2rem 0.2rem #000;
 }
 
+.section-1-icons i.change{
+    transform: translate(-50%,-50%)scale(1);
+
+}
+
 
 
 
