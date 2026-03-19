@@ -1,5 +1,5 @@
 const icons = document.querySelectorAll('.section-1-icons i')
-let1=1
+let i = 1
 
 setInterval(() =>{
     i++
@@ -12,10 +12,7 @@ setInterval(() =>{
       icon[0].classList.add('change')
       i = 1
    }else{
-    
+    icon.nextElementSibling.classList.add('change') 
    }
-
- icon.nextElementSibling.classList.add('change')
-
 
 }, 1000)
