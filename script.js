@@ -6,13 +6,16 @@ setInterval(() =>{
 
   const icon = document.querySelector('.section-1-icons .change')
 
+   icon.classList.remove('change')
+
    if(i > icons.length){
       icon[0].classList.add('change')
       i = 1
+   }else{
+    
    }
 
- icon.classList.remove('change')
  icon.nextElementSibling.classList.add('change')
 
 
-}, 4000)
+}, 1000)
