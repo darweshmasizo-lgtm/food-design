@@ -82,7 +82,17 @@ html{
     justify-content: space-between;
     align-items: center;
     box-shadow: 1rem 1rem 1rem #000;
+    position: relative;
 }
+
+.card::before{
+    content: "";
+    height: 100%;
+    width: 1rem;
+    background-color: #817824;
+    position: absolute;
+}
+
 .card-img{
     width: 100%;
 }
