@@ -70,6 +70,30 @@ html{
 
 .cards-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 30rem;
+    background-color: #a79a2d;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1rem 1rem 1rem #000;
+}
+.card-img{
+    width: 100%;
+}
+
+.card-name{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #111;
+    margin: 2rem 0;
+    text-shadow: 0.15rem 0.15rem 0.15rem #000;
 }
 /*end of section 2*/
