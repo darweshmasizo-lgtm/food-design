@@ -67,4 +67,9 @@ html{
     justify-content: space-between;
     padding: 10rem 0;
 }
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
 /*end of section 2*/
