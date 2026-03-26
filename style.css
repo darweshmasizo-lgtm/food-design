@@ -269,6 +269,13 @@ padding:5rem 0;
 .section-4-text{
     text-transform: uppercase;
 }
+
+.section-4-heading{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #a79a2d;
+}
+
 .copyright{
     position: absolute;
     bottom: 3rem;
