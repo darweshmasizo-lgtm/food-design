@@ -168,6 +168,27 @@ padding:5rem 0;
     object-fit: cover;
 }
 
+.gallery-link::before{
+    content: "";
+    position: absolute;
+    top: 2vh;
+    left: 80%;
+    width: 0.2rem;
+    height: 80%;
+    background-color: #fff;
+}
+
+.gallery-link::after{
+    content: "";
+    position: absolute;
+    top: 2vh;
+    left: 80%;
+    width: 0.2rem;
+    height: 80%;
+    background-color: #fff;
+}
+
+
 .food-name{
     position: absolute;
     top: 3rem;
