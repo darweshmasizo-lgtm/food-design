@@ -266,6 +266,9 @@ padding:5rem 0;
     position: relative;
 }
 
+.section-4-text{
+    text-transform: uppercase;
+}
 .copyright{
     position: absolute;
     bottom: 3rem;
