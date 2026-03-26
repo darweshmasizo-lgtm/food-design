@@ -263,6 +263,11 @@ padding:5rem 0;
     display: flex;
     justify-content: space-around;
     padding: 3rem 0;
+    position: relative;
 }
 
+.copyright{
+    position: absolute;
+    bottom: 3rem;
+}
 /* end of section 4*/
