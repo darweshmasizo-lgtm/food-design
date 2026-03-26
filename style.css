@@ -45,6 +45,9 @@ html{
     margin: 0 4rem;
 }
 
+.navbar-link i {
+    font-size: 7rem;
+}
 
 /*end of navber*/
 
