@@ -281,6 +281,11 @@ padding:5rem 0;
     color: #888;
 }
 
+.signup-form{
+    display: flex;
+    align-items: center;
+}
+
 .copyright{
     position: absolute;
     bottom: 3rem;
