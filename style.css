@@ -39,6 +39,13 @@ html{
   justify-content: center;
   align-items: center;
 }
+
+.navbar-link{
+    color: #aaa;
+    margin: 0 4rem;
+}
+
+
 /*end of navber*/
 
 /*section-1*/
