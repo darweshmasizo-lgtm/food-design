@@ -233,4 +233,12 @@ padding:5rem 0;
     color: #fff;
     opacity: 0;
     visibility: hidden;
+    transition: opacity 0.3s;
+}
+
+.gallery-link:hover 
+.food-description{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s 1s;
 }
