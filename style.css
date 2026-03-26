@@ -213,6 +213,12 @@ padding:5rem 0;
     color: #fff;
     width: 0;
     overflow: hidden;
+    transition: width 0.3s;
+}
+
+.gallery-link:hover .food-name{
+    width: 100%;
+    transition: width 1.5s 0.5s;
 }
 
 .food-description{
