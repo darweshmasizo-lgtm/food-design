@@ -65,6 +65,18 @@ html{
     margin-top: 0.5rem;
 }
 
+.menu{
+    width: 4rem;
+    height: 4rem;
+    background-color: #000;
+    position: fixed;
+    top: 15rem;
+    left: 5rem;
+    border-radius: 30rem 30rem 15rem 15rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #000,
+     -0.1rem -0.1rem 0.1rem #000;
+     cursor: pointer;
+}
 /*end of navber*/
 
 /*section-1*/
