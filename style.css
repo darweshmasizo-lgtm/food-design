@@ -166,6 +166,10 @@ padding:5rem 0;
     width: 24vw;
     height: 15vw;
     object-fit: cover;
+    box-shadow: 0.3rem 0.3rem 0.1rem #e92929,
+     0.5rem 0.5rem 0.1rem #a2e946,
+      0.7rem 0.7rem 1rem #297ce9, 
+      0.9rem 0.9rem 0.9rem #e92999;
 }
 
 .gallery-link::before{
@@ -174,17 +178,25 @@ padding:5rem 0;
     top: 2vh;
     left: 80%;
     width: 0.2rem;
-    height: 80%;
+    height: 0;
     background-color: #fff;
+}
+
+.gallery-link:hover::before{
+    height: 80%;
+}
+
+.gallery-link:hover::after{
+    
 }
 
 .gallery-link::after{
     content: "";
     position: absolute;
-    top: 2vh;
-    left: 80%;
-    width: 0.2rem;
-    height: 80%;
+    top: 30%;
+    left: 2rem;
+    width: 0;
+    height: 0.2rem;
     background-color: #fff;
 }
 
@@ -198,6 +210,8 @@ padding:5rem 0;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: #fff;
+    width: 0;
+    overflow: hidden;
 }
 
 .food-description{
@@ -210,4 +224,6 @@ padding:5rem 0;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     color: #fff;
+    opacity: 0;
+    visibility: hidden;
 }
