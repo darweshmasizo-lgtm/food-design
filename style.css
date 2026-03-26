@@ -44,6 +44,9 @@ html{
     color: #aaa;
     margin: 0 4rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-link i {
