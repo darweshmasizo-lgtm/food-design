@@ -287,7 +287,7 @@ padding:5rem 0;
     align-items: center;
 }
 
-.sign-form-input{
+.signup-form-input{
     width: 35rem;
     height: 5rem;
     padding: 1rem;
@@ -298,8 +298,20 @@ padding:5rem 0;
     color: #a79a2d;
 }
 
-.sign-form-input::placeholder{
+.signup-form-input::placeholder{
     color: #a79a2d;
+}
+
+.signup-form-btn{
+    position: relative;
+    left: -4.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #333;
+    color: #a79a2d;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .copyright{
