@@ -262,6 +262,7 @@ padding:5rem 0;
     background-color: #222;
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
     padding: 3rem 0;
     position: relative;
 }
@@ -284,6 +285,17 @@ padding:5rem 0;
 .signup-form{
     display: flex;
     align-items: center;
+}
+
+.sign-form-input{
+    width: 35rem;
+    height: 5rem;
+    padding: 1rem;
+    border: 0.2rem solid #a79a2d;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #a79a2d;
 }
 
 .copyright{
