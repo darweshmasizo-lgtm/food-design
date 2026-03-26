@@ -298,6 +298,10 @@ padding:5rem 0;
     color: #a79a2d;
 }
 
+.sign-form-input::placeholder{
+    color: #a79a2d;
+}
+
 .copyright{
     position: absolute;
     bottom: 3rem;
