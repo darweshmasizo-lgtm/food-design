@@ -461,4 +461,27 @@ padding:5rem 0;
         height: 100%;
     }
 }
+
+@media(max-width: 1000px){
+    .section-heading{
+        font-size: 9rem;
+        margin: 0 5rem;
+    }
+
+    .section-1-icons i {
+        font-size: 25rem;
+    }
+
+    .cards-container{
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 5rem;
+    }
+
+    .section-4{
+        height: 30rem;
+    }
+}
 /*End of responsive*/
