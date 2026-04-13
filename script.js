@@ -1,6 +1,8 @@
 document.querySelector('.menu').addEventListener
-('click',() =>{
-   
+('click', () => {
+   document.querySelectorAll('.target').forEach((item) => {
+item.classList.toggle('change')
+   })
 })
 
 
@@ -8,7 +10,7 @@ document.querySelector('.menu').addEventListener
 const icons = document.querySelectorAll('.section-1-icons i')
 let i = 1
 
-setInterval(() =>{
+setInterval(() => {
     i++
 
   const icon = document.querySelector('.section-1-icons .change')
