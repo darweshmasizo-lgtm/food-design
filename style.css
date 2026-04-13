@@ -107,7 +107,7 @@ html{
     height: 4rem;
     background-color: #000;
     position: fixed;
-    top: 2rem;
+    top: 1rem;
     left: 5rem;
     border-radius: 30rem 30rem 15rem 15rem;
     box-shadow: 0.1rem 0.1rem 0.1rem #000,
@@ -523,5 +523,15 @@ padding:5rem 0;
  .section-4-text{
     margin-bottom: 8rem;
  }
+}
+
+@media(max-width: 550px){
+    html{
+        font-size: 40%;
+    }
+
+    .navbar-link{
+        margin: 0 0.7rem;
+    }
 }
 /*End of responsive*/
