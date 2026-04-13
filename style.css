@@ -66,11 +66,11 @@ html{
 }
 
 .menu{
-    width: 4rem;
+    width: 2rem;
     height: 4rem;
     background-color: #000;
     position: fixed;
-    top: 1rem;
+    top: 2rem;
     left: 5rem;
     border-radius: 30rem 30rem 15rem 15rem;
     box-shadow: 0.1rem 0.1rem 0.1rem #000,
@@ -85,7 +85,7 @@ html{
     background-color: #000;
     position: absolute;
     top: -15rem;
-    left:calc(50% -o.15rem);
+    left: calc(50% -0.15rem);
     box-shadow: 0.1rem 0 0.1rem #000;
 }
 /*end of navber*/
