@@ -38,6 +38,13 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0.2rem 0.2rem 0.2rem #000;
+  transition: top 0.4s;
+}
+
+.navbar.change{
+    top: 0;
+    transition: 0.4s 0.2s;
 }
 
 .navbar-link{
@@ -47,7 +54,16 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
     transition: color 0.3s;
+}
+
+.change.navbar-link{
+    opacity: 1;
+}
+
+.change.navbar-link:nth-child(1){
+    transition: opacity 0.4s 0.5s;
 }
 
 .navbar-link:hover{
@@ -76,7 +92,14 @@ html{
     box-shadow: 0.1rem 0.1rem 0.1rem #000,
      -0.1rem -0.1rem 0.1rem #000;
      cursor: pointer;
+     transition: top 0.4s 0.2s;
 }
+
+.menu.change{
+top: 15rem;
+transition: top 0.4s;
+}
+
 
 .menu::before{
     content: "";
